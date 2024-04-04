@@ -1,0 +1,13 @@
+body
+{
+    background-color: rgb(20, 20, 20);
+}
+
+.link-location
+{
+  color: rgb(63, 155, 231);
+}
+li a:hover{
+    
+  border-bottom: 5px solid #ffffff;
+}

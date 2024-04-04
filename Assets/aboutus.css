@@ -1,0 +1,156 @@
+.aboutus-header{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.336)), url("../Assets/Images/About-us/aboutuss.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+li a:hover{
+    
+    border-bottom: 5px solid #ffffff;
+}
+.intro-con{
+    background-color: white;
+    padding: 100px;
+    padding-left: 100px;
+    display: flex;
+    font-family: sans-serif;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.intro-left>h1{
+    font-size: 60px;
+    text-align: left;
+    font-weight: 700;
+
+}
+
+.intro-right>p{
+    font-size: 18px;
+    font-weight:300;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+.intro-btn{
+    background-color:#ff6100 ;
+    border-radius: 30px ;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 50px !important;
+    text-decoration: none;
+    color: white;
+}
+.intro-btn:hover{
+    background-color:  #11bac0;
+    color: rgba(255, 255, 255, 0.871);
+    text-decoration: none;
+}
+.section-1>a{
+    padding: 20px;
+    color:white !important;
+    border-radius: 50%;
+    display: block;
+    font-size: 30px !important;
+}
+.section-1>h5
+{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.section-title{
+    color:rgb(240, 213, 213);
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+}
+.icon-section{
+    background-color: #ff6100;
+    border-radius: 50%;
+    height: 57px;
+    width: 57px;
+    position: relative;
+    right: -120px;
+    margin-bottom: 40px;
+   
+}
+.icon-section>img{
+    height: 70px ;
+    width: 70px;
+    
+    position: absolute;
+   
+    
+}
+
+
+.section-aboutus{
+    background-color:darkcyan;
+    padding: 100px;
+    padding-left: 100px;
+    text-align: center;
+    justify-content: space-between !important;
+    display: flex;
+    font-family: sans-serif;
+    
+    
+}
+.section-aboutus-h1
+{
+    background-color:darkcyan;
+   text-align: center;
+    margin-bottom: 0;
+    color: white;
+    text-shadow: 3px 4px 3px black;
+    font-size: 60px !important;
+    padding-top: 60px;
+    
+
+}
+
+.concept-row{
+    padding-bottom: 60px;
+}
+
+.concept-left>h1{
+    font-size: 60px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.concept-right>p{
+    font-size: 20px;
+    
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.concept-row2{
+    display: flex;
+    justify-content: space-around;
+    }
+.card-aboutus
+{
+    margin-bottom: 10px;
+    border: none;
+}    
+
+.card-aboutus>video{
+    border-radius: 30px !important;
+    
+}
+.card-aboutus>h4{
+    
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+
+}
+
+
+

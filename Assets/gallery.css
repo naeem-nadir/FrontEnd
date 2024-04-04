@@ -1,0 +1,109 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: rgb(73, 71, 71);
+
+}
+
+.gallery-top-img
+{
+    background-image: url("../Assets/images/gallery/display-pics/g2.jpg ");
+  
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.gallery-top-img>p
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.gallery-top-img>h1
+{
+    
+    font-size: 130px;
+    color: darkcyan;
+    position: relative;
+    top: 190px;
+    margin-left: 100px;
+    display: inline;
+    font-family: sans-serif;
+}
+
+.gallery-top-img>a
+{
+    
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 220px;
+    font-family: sans-serif;
+}
+.gallery-top-img>h1:hover
+{
+    color: rgb(233, 65, 3);
+    text-decoration: none;
+}
+.gallery-row
+{
+    justify-content: space-around;
+    width: 100%;
+}
+
+.gallery-img>img{
+    height: 250px;
+    width: 500px;
+    margin: 20px;
+    object-fit: cover;
+   
+}
+
+.gallery-row-2
+{
+    justify-content: space-around;
+}
+
+.gallery-img-2>img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    object-fit: cover;
+}
+.explore-title
+{
+    
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin: 20px;
+    
+
+}
+
+.explore-title>a
+{
+    color: #ff6100;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.explore-title>a:hover
+{
+    color: #f6833ce0;
+    text-decoration: none;
+}
+.explore-title>p
+{
+    color: white;
+}
